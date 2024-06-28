@@ -6,7 +6,7 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "vrohan.com",
+    default: "Vrohan's",
     template: "%s | vrohan.com",
   },
   description: "Master of one trade, trying to be a jack of all.",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/logo1.ico",
   },
 };
 const inter = Inter({

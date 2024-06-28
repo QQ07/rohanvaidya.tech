@@ -7,7 +7,7 @@ import { Article } from "./article";
 
 export const revalidate = 60;
 export default async function ProjectsPage() {
-  const featured = allProjects.find((project) => project.slug === "unkey")!;
+  const featured = allProjects.find((project) => project.slug === "yourelax")!;
   const top2 = allProjects.find((project) => project.slug === "planetfall")!;
   const top3 = allProjects.find((project) => project.slug === "highstorm")!;
   const sorted = allProjects
@@ -32,9 +32,9 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-4 text-zinc-400">
+          {/* <p className="mt-4 text-zinc-400">
             Some of the projects are from work and some are on my own time.
-          </p>
+          </p> */}
         </div>
         <div className="w-full h-px bg-zinc-800" />
 
@@ -65,8 +65,8 @@ export default async function ProjectsPage() {
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                   {featured.description}
                 </p>
-                <div className="absolute bottom-4 md:bottom-8">
-                  <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
+                <div className=" bottom-4 md:bottom-8 ">
+                  <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block pt-2">
                     Read more <span aria-hidden="true">&rarr;</span>
                   </p>
                 </div>
