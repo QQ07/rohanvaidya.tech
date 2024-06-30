@@ -7,22 +7,18 @@ const socials = [
   {
     icon: <X size={'20'} />,
     href: "https://x.com/vaidya_jiii",
-    handle: "@vrohan",
   },
   {
     icon: <Mail size={20} />,
     href: "mailto:hello@rohanvaidya.tech",
-    handle: "hello@rohanvaidya.tech",
   },
   {
     icon: <Github size={20} />,
     href: "https://github.com/qq07",
-    handle: "qq07",
   },
   {
     icon: <Linkedin size={20} />,
     href: "https://linkedin.com/in/vrohann",
-    handle: "qq07",
   },
 ];
 
