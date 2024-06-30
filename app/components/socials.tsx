@@ -5,7 +5,7 @@ import X from './Icons';
 
 const socials = [
   {
-    icon: <X size={20} />,
+    icon: <X size={'20'} />,
     href: "https://x.com/vaidya_jiii",
     handle: "@vrohan",
   },
