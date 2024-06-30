@@ -47,7 +47,9 @@ export default function Home() {
           to simplify the Portfolio making process for all.{" "}
         </h2>
       </div>
-      <Socials />
+      <div className="absolute bottom-10 text-white animate-fade-in">
+        <Socials />
+      </div>
     </div>
   );
 }
