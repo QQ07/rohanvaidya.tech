@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import Socials from "./components/socials";
 
 const navigation = [
   { name: "Projects", href: "/projects" },
@@ -43,8 +44,10 @@ export default function Home() {
           >
             You Relax
           </Link>{" "}
-         to simplify the Portfolio making process for all. </h2>
+          to simplify the Portfolio making process for all.{" "}
+        </h2>
       </div>
+      <Socials />
     </div>
   );
 }
