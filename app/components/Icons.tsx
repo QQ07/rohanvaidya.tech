@@ -2,7 +2,7 @@ import React from "react";
 type Xprops = {
   size: string;
 };
-function X({ size }): Xprops {
+const X: React.FC<XProps> = ({ size }: XProps) => {
   console.log(size);
   return (
     <svg
@@ -24,5 +24,5 @@ function X({ size }): Xprops {
       />
     </svg>
   );
-}
+};
 export default X;
