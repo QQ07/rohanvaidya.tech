@@ -1,5 +1,5 @@
 import React from "react";
-type Xprops = {
+type XProps = {
   size: string;
 };
 const X: React.FC<XProps> = ({ size }: XProps) => {
